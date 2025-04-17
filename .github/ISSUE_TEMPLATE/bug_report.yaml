@@ -9,12 +9,12 @@ body:
       label: Scope
       description: With what you are experiencing issue?
       options:
-        - 'desktop app (macOS, windows, linux)'
-        - 'editor (wysiwyg, markdown)'
-        - 'docportal/static'
-        - 'ui/ux'
-        - 'git (storages, push/pull, merge requests, etc.)'
-        - 'other'
+        - 'Desktop App (macOS, windows, linux)'
+        - 'Editor (wysiwyg, markdown)'
+        - 'Static / Docportal'
+        - 'UI/UX'
+        - 'Git (storages, push/pull, etc.)'
+        - 'Other'
     validations:
       required: true
 
