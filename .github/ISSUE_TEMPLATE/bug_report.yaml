@@ -3,18 +3,30 @@ description: Report a bug
 # type: Bug
 
 body:
+  - type: markdown
+    attributes:
+      value: |
+        Please give the issue a title that describes what and where you've found the bug. Be less abstract and more specific.
+        Examples of bad to good titles:
+          - App crashes with an error <any unrelated error> -> <action> causes app to crash
+          - Image issues in tables -> Tables: Image enlarges when neightboring cell width changed
+          - Tables are displayed incorrectly in the Firefox browser -> Firefox: Table cells may be too narrow making content to overflow
+            
+        If there is a related issue, please reference it in the description.
+
   - type: dropdown
     id: scope
     attributes:
       label: Scope
-      description: With what you are experiencing issue?
-      default: 5
+      description: Specify the scope of the issue to help us triage the issue quicker
+      default: 6
       options:
         - 'Desktop App (macOS, windows, linux)'
         - 'Editor (wysiwyg, markdown)'
-        - 'Static / Docportal'
         - 'UI/UX'
         - 'Git (storages, push/pull, etc.)'
+        - 'Docportal'
+        - 'Static/CLI'
         - 'Other'
     validations:
       required: true
@@ -33,6 +45,13 @@ body:
     attributes:
       label: Stacktrace
       description: If applicable, include a stack trace of the error. See in devtools console.
+      render: text
+
+  - type: textarea
+    id: md
+    attributes:
+      label: Markdown
+      description: If you issue is related to
       render: text
 
   - type: textarea
