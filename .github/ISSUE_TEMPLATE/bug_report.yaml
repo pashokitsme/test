@@ -8,7 +8,7 @@ body:
     attributes:
       label: Scope
       description: With what you are experiencing issue?
-      default: -1
+      default: 5
       options:
         - 'Desktop App (macOS, windows, linux)'
         - 'Editor (wysiwyg, markdown)'
