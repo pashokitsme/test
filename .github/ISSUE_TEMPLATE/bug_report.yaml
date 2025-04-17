@@ -8,14 +8,14 @@ body:
       value: |
         Please give the issue a title that describes what and where you've found the bug. Be less abstract and more specific.
         Examples of bad to good titles:
-          1. `Bad`: App crashes with an error \<any unrelated error\> 
-            `Good`: \<action\> causes app to crash                      
+          1. `Good`: \<action\> causes app to crash                      
+            `Bad`: App crashes with an error \<any unrelated error\> 
 
-          2. `Bad`: Image issues in tables → Tables: Image enlarges when neightboring cell width changed   
-            `Good`: Tables: Image enlarges when neightboring cell width changed                             
+          2. `Good`: Tables: Image enlarges when neightboring cell width changed                             
+            `Bad`: Image issues in tables → Tables: Image enlarges when neightboring cell width changed   
 
-          3. `Bad`: Tables are displayed incorrectly in the Firefox browser
-            `Good`: Firefox: Table cells may be too narrow making content to overflow
+          3. `Good`: Firefox: Table cells may be too narrow making content to overflow
+            `Bad`: Tables are displayed incorrectly in the Firefox browser
             
         If there is a related issue, please reference it in the description.
 
