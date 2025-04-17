@@ -48,15 +48,8 @@ body:
   - type: textarea
     id: logs
     attributes:
-      label: Stacktrace
-      description: If applicable, include a stack trace of the error. See in devtools console.
-      render: text
-
-  - type: textarea
-    id: md
-    attributes:
-      label: Markdown
-      description: If you issue is related to
+      label: Markdown / Stacktrace
+      description: if applicable, include a stack trace of the error from the devtools console or markdown code block that reproduces the issue
       render: text
 
   - type: textarea
