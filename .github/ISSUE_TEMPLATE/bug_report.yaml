@@ -3,30 +3,39 @@ description: Report a bug
 # type: Bug
 
 body:
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Scope
+      description: With what you are experiencing issue?
+      options:
+        - 'desktop app (macOS, windows, linux)'
+        - 'editor (wysiwyg, markdown)'
+        - 'docportal/static'
+        - 'ui/ux'
+        - 'git (storages, push/pull, merge requests, etc.)'
+        - 'other'
+    validations:
+      required: true
+
   - type: textarea
     id: description
     attributes:
       label: Describe the bug
-      description: A clear description of what the bug is. Don't forget about spoilers if you attach screenshots/videos.
+      description: A clear description of what the bug is. Please use spoilers if you attach large screenshots or videos.
       placeholder: Bug description
     validations:
       required: true
 
   - type: textarea
-    id: reproduction
+    id: logs
     attributes:
-      label: Reproduction Steps
-      description: A minimal description of how to reproduce the bug.
+      label: Stacktrace
+      description: If applicable, include a stack trace of the error. See in devtools console.
+      render: text
 
   - type: textarea
     id: expected-behavior
     attributes:
       label: Expected behavior
       description: If applicable, describe what you expected to happen.
-
-  - type: textarea
-    id: logs
-    attributes:
-      label: Stack trace
-      description: If applicable, include a stack trace of the error. See in devtools console.
-      render: text
