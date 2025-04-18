@@ -24,7 +24,7 @@ body:
     attributes:
       label: Scope
       description: Specify the scope of the issue to help us triage the issue quicker
-      default: 6
+      default: 7
       options:
         - 'Desktop App (macOS, windows, linux)'
         - 'Web App'
@@ -41,7 +41,9 @@ body:
     id: description
     attributes:
       label: Describe the bug
-      description: A clear description of what the bug is. Screenshots or videos can be included to describe the issue more precisely.
+      description: |
+        A clear description of what the bug is. Screenshots or videos can be included to describe the issue more precisely.
+        Also include the steps to reproduce the issue, stacktrace or piece of markdown causing problems.
       placeholder: Bug description
     validations:
       required: true
