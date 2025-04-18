@@ -49,12 +49,6 @@ body:
       required: true
 
   - type: textarea
-    id: logs
-    attributes:
-      label: Markdown / Stacktrace (Optional)
-      description: if applicable, include an error stacktrace from the devtools console or markdown code block that reproduces the issue
-
-  - type: textarea
     id: expected-behavior
     attributes:
       label: Expected behavior (Optional)
