@@ -7,15 +7,15 @@ body:
     attributes:
       value: |
         Please give the issue a title that describes what and where you've found the bug. Be less abstract and more specific.
-        Examples of bad to good titles:
-          1. `Good`: \<action\> causes app to crash                      
-            `Bad`: App crashes with an error \<any unrelated error\> 
-
-          2. `Good`: Tables: Image enlarges when neightboring cell width changed                             
-            `Bad`: Image issues in tables → Tables: Image enlarges when neightboring cell width changed   
-
-          3. `Good`: Firefox: Table cells may be too narrow making content to overflow
-            `Bad`: Tables are displayed incorrectly in the Firefox browser
+        Good:
+          1. \<action\> causes app to crash
+          2. Tables: Image enlarges when neightboring cell width changed
+          3. Firefox: Table cells may be too narrow making content to overflow
+          
+        Bad:
+          1. App crashes with an error \<any unrelated error\> 
+          2. Image issues in tables → Tables: Image enlarges when neightboring cell width changed   
+          3. Tables are displayed incorrectly in the Firefox browser
             
         If there is a related issue, please reference it in the description.
 
@@ -48,12 +48,12 @@ body:
   - type: textarea
     id: logs
     attributes:
-      label: Markdown / Stacktrace
-      description: if applicable, include a stack trace of the error from the devtools console or markdown code block that reproduces the issue
+      label: Markdown / Stacktrace (Optional)
+      description: if applicable, include an error stacktrace from the devtools console or markdown code block that reproduces the issue
       render: text
 
   - type: textarea
     id: expected-behavior
     attributes:
-      label: Expected behavior
+      label: Expected behavior (Optional)
       description: If applicable, describe what you expected to happen.
