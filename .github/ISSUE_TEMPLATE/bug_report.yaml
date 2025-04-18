@@ -41,7 +41,7 @@ body:
     id: description
     attributes:
       label: Describe the bug
-      description: A clear description of what the bug is. Please use spoilers if you attach large screenshots or videos.
+      description: A clear description of what the bug is. Screenshots or videos can be included to describe the issue more precisely.
       placeholder: Bug description
     validations:
       required: true
