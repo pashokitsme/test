@@ -6,9 +6,9 @@ body:
   - type: markdown
     attributes:
       value: |
-        Please give the issue a title that describes what and where you've found the bug. Be less abstract and more specific.
-        Use code blocks for markdown or stacktraces.
-        If there is a related issue, please reference it in the description.
+        1. Give issue a good title.  Be less abstract and more specific.
+        2. Use code blocks for markdown or stacktraces.
+        3. If there is a related issue, please reference it in the description.
 
   - type: textarea
     id: description
