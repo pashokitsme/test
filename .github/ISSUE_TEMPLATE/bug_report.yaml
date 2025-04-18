@@ -14,8 +14,8 @@ body:
           
         Bad:
           1. App crashes with an error \<any unrelated error\> 
-          2. Image issues in tables → Tables: Image enlarges when neightboring cell width changed   
-          3. Tables are displayed incorrectly in the Firefox browser
+          2. Image issues in tables
+          3. Tables are displayed incorrectly in the browser
             
         If there is a related issue, please reference it in the description.
 
