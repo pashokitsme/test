@@ -27,6 +27,7 @@ body:
       default: 6
       options:
         - 'Desktop App (macOS, windows, linux)'
+        - 'Web App'
         - 'Editor (wysiwyg, markdown)'
         - 'UI/UX'
         - 'Git (storages, push/pull, etc.)'
